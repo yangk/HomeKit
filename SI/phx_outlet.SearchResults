@@ -1,0 +1,13 @@
+---- GPIO_PORT Matches (1 in 1 files) ----
+PinNames.h (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\mbed\targets\hal\rtl8195a):} GPIO_PORT;
+---- GET_REQUEST Matches (2 in 1 files) ----
+Ssl_client.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\utilities):#define GET_REQUEST   "GET / HTTP/1.0\r\n\r\n"
+Ssl_client.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\utilities):	len = sprintf((char *) buf, GET_REQUEST);
+---- SERVER_HOST Matches (7 in 3 files) ----
+Example_ssl_download.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\example\ssl_download):#define SERVER_HOST    "192.168.13.27"
+Example_ssl_download.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\example\ssl_download):	if((ret = net_connect(&server_fd, SERVER_HOST, SERVER_PORT)) != 0) {
+Example_ssl_download.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\example\ssl_download):		sprintf(buf, "GET %s HTTP/1.1\r\nHost: %s\r\n\r\n", RESOURCE, SERVER_HOST);
+Readme.txt (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\example\ssl_download):Modify SERVER_HOST, SERVER_PORT and RESOURCE in example_ssl_download.c based on your SSL server
+Ssl_client.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\utilities):#define SERVER_HOST   "192.168.13.15"
+Ssl_client.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\utilities):	//strcpy(server_host, SERVER_HOST);
+Ssl_client.c (c:\users\yk\desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\component\common\utilities):	strcpy(server_host, SERVER_HOST);

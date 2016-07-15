@@ -1,0 +1,15 @@
+"F:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"F:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink.dll" 
+
+"C:\Users\yk\Desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\project\realtek_ameba1_va0_homekit\EWARM-RELEASE\Debug\Exe\application.axf" 
+
+--plugin "F:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--macro "C:\Users\yk\Desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\project\realtek_ameba1_va0_homekit\EWARM-RELEASE\..\..\..\component\soc\realtek\8195a\misc\iar_utility\common\preload.mac" 
+
+--flash_loader "C:\Users\yk\Desktop\phxsdk_hk_v1.0.1_eastsoft_20160506\project\realtek_ameba1_va0_homekit\EWARM-RELEASE\tmp.board" 
+
+
+
+
